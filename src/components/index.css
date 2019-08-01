@@ -1,0 +1,27 @@
+.title{
+font-family: 'Work Sans';
+transform: rotate(90deg);
+position: absolute;
+top: 90px;
+left: -50px;
+
+
+}
+
+
+.title h1{
+  font-family: 'Work Sans';
+line-height: 5px;
+font-size: 2rem;
+            font-weight: 500;
+}
+
+
+.phone{
+
+position: absolute;
+position: fixed;
+
+top: 250px;
+left: 35px;
+}

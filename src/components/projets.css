@@ -1,0 +1,38 @@
+.pic{
+
+}
+
+.pic2{
+ width: 600px;
+}
+
+.projet{
+  font-family: Work Sans;
+
+ font-size: 24px;
+ width: 80%;
+ margin:auto;
+ margin-top: 50px
+}
+
+
+.projet a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.box {
+  display: flex
+}
+
+
+.right{
+  margin-left: 20px
+}
+
+
+.left{
+  text-align: right;
+  margin-right: 30px;
+}
