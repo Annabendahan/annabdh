@@ -2,8 +2,8 @@
 font-family: 'Work Sans';
 transform: rotate(90deg);
 position: absolute;
-top: 90px;
-left: -50px;
+top: 40px;
+left: -15px;
 
 
 }
@@ -22,6 +22,31 @@ font-size: 2rem;
 position: absolute;
 position: fixed;
 
-top: 250px;
-left: 35px;
+
+bottom: 25px;
+right: 50px;
+}
+
+
+.carte{
+
+position: absolute;
+position: fixed;
+
+bottom: 70px;
+right: 20px;
+visibility: hidden
+}
+
+.carte:hover{
+   visibility: visible;
+}
+
+
+.phone:hover ~ .carte{
+  visibility: visible;
+}
+
+.picheader{
+width: 150px;
 }
