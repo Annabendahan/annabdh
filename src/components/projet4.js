@@ -6,7 +6,7 @@ import "./projets.css"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import pic1 from "../images/IMG6249.jpg"
+import pic1 from "../images/IMG-20180422-WA0035.jpg"
 
 const Projet4 = () => (
 
@@ -27,10 +27,10 @@ const Projet4 = () => (
 </svg>
 
 
-        <div className="desc"> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, accusamus? </p> </div>
+        <div className="desc"> <p> Portfolio précédent </p> </div>
 
          </div>
-         <img  src={pic1} className="pic2" alt="fireSpot" />
+         <img  src={pic1} className="pic3" alt="fireSpot" />
        </div>
     </a>
    </div>

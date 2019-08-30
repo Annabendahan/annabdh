@@ -1,19 +1,13 @@
 .title{
 font-family: 'Work Sans';
-transform: rotate(90deg);
-position: absolute;
-top: 40px;
-left: -15px;
-
+text-align: center;
+font-size: 5rem
 
 }
 
 
-.title h1{
-  font-family: 'Work Sans';
-line-height: 5px;
-font-size: 2rem;
-            font-weight: 500;
+.picp{
+  width: 400px;
 }
 
 
@@ -49,4 +43,60 @@ visibility: hidden
 
 .picheader{
 width: 150px;
+}
+
+
+.annab{
+
+  height: 500px;
+}
+
+
+.logo{
+  width: 100px;
+
+}
+
+.logoclass{
+  text-align: center
+}
+
+
+
+.logos{
+  text-align: center;
+   padding-top: 30px;
+  padding-bottom: 60px }
+
+.logos a{
+padding: 7px;
+
+
+}
+
+
+.scroll{
+  text-align: center;
+  margin-left: 46%;
+  bottom: 10px;
+  position: fixed;
+
+}
+
+
+.landing{
+background: #EEFF27;
+height: 100vh
+}
+
+.projets{
+  padding: 50px;
+}
+
+.projr{
+  margin-left: 60%;
+}
+
+.voici{
+  text-align: center
 }

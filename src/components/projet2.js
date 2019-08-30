@@ -24,7 +24,7 @@ const Projet2 = () => (
 </svg>
 
 
-        <div className="desc"> <p> Quentin is a lawyer and needed a clear and useful website.  </p> </div>
+        <div className="desc"> <p> Quentin is a lawyer and needed a clear and easy to use website.  </p> </div>
          </div>
 
         <img  src={pic1} className="pic2" alt="fireSpot" />

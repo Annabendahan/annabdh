@@ -2,12 +2,24 @@
 
 }
 
+
+.box {
+  display: flex
+}
+
 .pic2{
- width: 600px;
+ height: 400px;
 }
 
 .pic4{
   height: 400px;
+  margin-right: -100px
+}
+
+.pic3{
+  height: 500px;
+  margin-top: -100px;
+  margin-right: 120px
 }
 
 .projet{
@@ -16,8 +28,66 @@
  font-size: 24px;
  width: 80%;
  margin-left:5%;
- margin-top: 10px
+ margin-top: -100px
 }
+
+
+@media(max-width: 1001px) {
+  .projet{
+    margin-top: 80px;
+
+  }
+}
+
+.left p{
+
+   font-size: 25px;
+   margin: 7px;
+}
+
+
+
+.desc p{
+   font-size: 19px;
+}
+
+@media(max-width: 601px) {
+.projet{
+    margin-top: 80px;
+    width: 98%;
+
+  }
+
+  .box {
+  display: block
+}
+
+
+  .pic2{
+ height: 200px;
+ width: 90%;
+}
+
+
+.pic4{
+ height: 200px;
+ width: 90%;
+}
+
+
+.pic3{
+margin-top:0px;
+height: 300px;
+margin-left:50px;
+}
+
+
+  .desc p{
+    font-size: 1rem;
+  }
+
+}
+
 
 
 .projet a{
@@ -26,9 +96,7 @@
 }
 
 
-.box {
-  display: flex
-}
+
 
 
 .right{
@@ -42,13 +110,10 @@
   font-family: Work Sans;
 }
 
-.left p{
-
-   font-size: 25px;
-   margin: 7px;
-}
 
 
-.desc p{
-   font-size: 19px;
+
+
+.shuffle:hover{
+  cursor: pointer;
 }

@@ -30,7 +30,7 @@ const Projet1 = () => (
       ckothes highlight, colors of her main collection "Heures de pointe". </p> </div>
          </div>
 
-           <img  src={pic1} className="pic" alt="fireSpot" />
+           <img  src={pic1} className="pic2" alt="fireSpot" />
         </div>
 
     </a>
